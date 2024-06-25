@@ -29,7 +29,7 @@ public class CurrencyConverter {
 
         amount = scanner.nextFloat();
 
-        sendHttpGetRequest(fromCode, toCode, amount);
+        // sendHttpGetRequest(fromCode, toCode, amount);
 
 
     }
