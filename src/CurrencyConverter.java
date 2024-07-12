@@ -29,8 +29,12 @@ public class CurrencyConverter {
 
         amount = scanner.nextFloat();
 
-        // sendHttpGetRequest(fromCode, toCode, amount);
+        // sendHttpGETRequest(fromCode, toCode, amount);
 
+        System.out.println("Thank you for using Currency Converter!");
+    }
 
+    public static void sendHttpGETRequest(String fromCode, String toCode, double amount) {
+        
     }
 }
